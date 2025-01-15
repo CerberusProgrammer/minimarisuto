@@ -10,21 +10,13 @@
     <meta name="author" content="Omar Flores Salazar" />
     <meta name="theme-color" content="#000000" />
     <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow" />
-    <meta name="google" content="nositelinkssearchbox" />
-    <meta name="google" content="notranslate" />
-    <meta name="google" content="nositelinkssearchbox" />
-    <meta name="google" content="max-snippet:-1" />
-    <meta name="google" content="max-image-preview:large" />
-    <meta name="google" content="max-video-preview:-1" />
-    <meta name="google" content="notranslate" />
-    <meta name="google" content="nositelinkssearchbox" />
-    <meta name="google" content="max-snippet:-1" />
-    <meta name="google" content="max-image-preview:large" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minimarisuto</title>
   </head>
   <body>
-    <slot />
+    <main
+      class="grid grid-cols-1 gap-4 p-10 md:grid-cols-6 md:gap-8 grid-rows-6 h-screen"
+    >
+      <slot />
+    </main>
   </body>
 </html>
